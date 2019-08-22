@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+>
+    <display-name>Archetype Created Web Application</display-name>
+
+    <servlet>
+        <servlet-name>UploadServlet</servlet-name>
+        <servlet-class>com.example.UploadServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>UploadServlet</servlet-name>
+        <url-pattern>/upload</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>user</servlet-name>
+        <servlet-class>com.example.UserServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>user</servlet-name>
+        <url-pattern>/user</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>hellojsp</servlet-name>
+        <jsp-file>/jsp/hello.jsp</jsp-file>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>hellojsp</servlet-name>
+        <url-pattern>/hellojsp</url-pattern>
+    </servlet-mapping>
+
+
+</web-app>
