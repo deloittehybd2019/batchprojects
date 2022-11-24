@@ -11,7 +11,7 @@
         <failOnMisssingWebXml>false</failOnMisssingWebXml>
         <spring.version>5.1.5.RELEASE</spring.version>
         <jetty.version>9.4.12.v20180830</jetty.version>
-        <hibernate.version>5.3.10.Final</hibernate.version>
+        <hibernate.version>5.3.20.Final</hibernate.version>
         <postgres.version>42.2.2</postgres.version>
         <slf4j.version>1.7.26</slf4j.version>
         <log4j.version>1.7.26</log4j.version>
